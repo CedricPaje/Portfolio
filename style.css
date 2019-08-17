@@ -85,28 +85,20 @@ body {
   width: 100%;
   max-width: 100%;
   position: absolute;
-  top: 60%;
+  top: 20%;
 }
 
-.animate-title {
-  width: 100%;
-  max-width: 100%;
-  position: absolute;
-  top: 10%;
-}
-
-.svg-landing {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.svg-content {
+  top: 0;
+  left: 0;
+  max-width: 960px;
 }
 
 .st0 {
   stroke: #C5C1C0;
   fill: #C5C1C0;
+  stroke-width: 3px;
+  stroke-miterlimit: 10px;
   stroke-dasharray: 2100;
   opacity: 10;
   -webkit-animation: animate 2.5s;
@@ -161,6 +153,7 @@ body {
   color: #F7CE3E;
   border-radius: 0;
   padding: 0.8rem 1.5rem;
+  margin-top: 1.5rem;
   font-size: 1.1rem;
   font-weight: 700;
   text-transform: uppercase;
