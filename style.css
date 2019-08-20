@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
 body {
   overflow-x: hidden;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #0A1612;
 }
 
@@ -42,7 +43,7 @@ body {
   text-decoration: none;
   font-family: 'Righteous', cursive;
   color: #C5C1C0;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .navbar .brand-name {
@@ -76,7 +77,7 @@ body {
   font-size: 1.6rem;
 }
 
-/*============ NAVIGATION ============*/
+/*============ LANDING ============*/
 .home-inner {
   background-image: radial-gradient(rgba(10, 22, 18, 0.8), rgba(10, 22, 18, 0.98)), url("./img/apple-black-and-white-black-and-white-169573.jpg");
 }
@@ -163,6 +164,37 @@ body {
 .btn-lg:hover {
   border: solid 2px #F7CE3E;
   background-color: #F7CE3E;
+}
+
+/*============ DESCRIPTION ============*/
+.narrow {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.narrow .btn-sm {
+  border-width: medium;
+  border-radius: 0;
+  padding: 0.5rem 1.1rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 1rem;
+  color: #F7CE3E;
+}
+
+.narrow .btn-yellow {
+  border-color: #F7CE3E;
+  background-color: #F7CE3E;
+  color: #0A1612;
+}
+
+.narrow .btn-yellow:hover,
+.narrow .btn-yellow:focus {
+  border-color: #DEB937;
+  background-color: #DEB937;
+  color: #0A1612;
 }
 
 /* Devices under 992px (lg) */
